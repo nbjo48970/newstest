@@ -47,7 +47,7 @@ h4{
 }
 
 #landing img{
-  max-width: 30%;
+  max-width: 300px;
 }
 
 #numbers{
@@ -142,7 +142,7 @@ button:hover {
   margin-left: 10px;
   margin-right: 10px; */
   border-top: 1px dashed;
-  border-image:  linear-gradient(to right, #000 50%, transparent 50%) 100% 1;
+  border-image:  linear-gradient(to right, #88B73F 50%, transparent 50%) 100% 1;
 }
 
 #some img{
@@ -242,6 +242,7 @@ button:hover {
 
   #landing h3{
     font-size: 80px;
+    margin-top: 0;
   }
 
   #some a::after {
