@@ -26,6 +26,10 @@ h4{
   color: white;
 }
 
+#top{
+  width: 100%;
+}
+
 #wrapper{
   background-color: #383838;
   width: 60%;
@@ -58,6 +62,7 @@ h4{
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-bottom: 85px;
   color: #383838;
   text-align: left;
 }
@@ -94,10 +99,40 @@ border-color: white;
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
-  /* border-left: solid 3px #88B73F;
-  border-right: solid 3px #88B73F;
-  margin-left: 10px;
-  margin-right: 10px; */
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+#nl{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* margin-top: 35px;
+  margin-bottom: 70px; */
+}
+
+#nl img{
+  max-width: 300px;
+}
+
+#dashed-1 {
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #88B73F, #88B73F );
+  background-size: 20px 1px, 50% 1px;
+  border: none;
+}
+
+#dashed-2 {
+  height: 1px;
+  width: 50%;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #88B73F, #88B73F );
+  background-size: 20px 1px, 50% 1px;
+  border: none;
+  margin-left: 50%
 }
 
 #events button{
@@ -117,16 +152,42 @@ border-color: white;
   font-size: 16px;
 }
 
+#nl button{
+  align-self: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background-color: #88B73F;
+  border: none;
+  border: 1px solid;
+  border-color: #88B73F;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 #events button:hover{
-background-color: white;
-color: #383838;
-border: 1px solid;
-border-color: #88B73F;
+  background-color: white;
+  color: #383838;
+  border: 1px solid;
+  border-color: #88B73F;
+}
+
+#nl button:hover{
+  background-color: white;
+  color: #383838;
+  border: 1px solid;
+  border-color: #88B73F;
 }
 
 button:hover {
   cursor: pointer;
 }
+
 
 #some{
   display: flex;
@@ -141,8 +202,8 @@ button:hover {
   border-right: solid 3px #88B73F;
   margin-left: 10px;
   margin-right: 10px; */
-  border-top: 1px dashed;
-  border-image:  linear-gradient(to right, #88B73F 50%, transparent 50%) 100% 1;
+  /* border-top: 1px dashed;
+  border-image:  linear-gradient(to right, #88B73F 50%, transparent 50%) 100% 1; */
 }
 
 #some img{
@@ -222,7 +283,14 @@ button:hover {
     font-size: 20px;
   }
 
-  #events{
+  #events {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #nl {
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 70px;
@@ -240,7 +308,7 @@ button:hover {
     padding-bottom: 70px;
   }
 
-  #landing h3{
+  #landing h3, #events h3, #nl h3{
     font-size: 80px;
     margin-top: 0;
   }
