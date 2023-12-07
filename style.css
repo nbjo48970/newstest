@@ -70,9 +70,9 @@ h4{
   align-self: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  background-color: #88B73F;
+  background-color: #89B940;
   border: 1px solid;
-  border-color: #88B73F;
+  border-color: #89B940;
   border-radius: 25px;
   color: white;
   padding: 15px 32px;
@@ -116,7 +116,7 @@ border-color: white;
 #dashed-1 {
   height: 1px;
   width: 50%;
-  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #88B73F, #88B73F );
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
   background-size: 20px 1px, 50% 1px;
   border: none;
 }
@@ -124,7 +124,7 @@ border-color: white;
 #dashed-2 {
   height: 1px;
   width: 50%;
-  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #88B73F, #88B73F );
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
   background-size: 20px 1px, 50% 1px;
   border: none;
   margin-left: 50%
@@ -134,10 +134,10 @@ border-color: white;
   align-self: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  background-color: #88B73F;
+  background-color: #89B940;
   border: none;
   border: 1px solid;
-  border-color: #88B73F;
+  border-color: #89B940;
   border-radius: 25px;
   color: white;
   padding: 15px 32px;
@@ -151,10 +151,10 @@ border-color: white;
   align-self: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  background-color: #88B73F;
+  background-color: #89B940;
   border: none;
   border: 1px solid;
-  border-color: #88B73F;
+  border-color: #89B940;
   border-radius: 25px;
   color: white;
   padding: 15px 32px;
@@ -169,14 +169,14 @@ border-color: white;
   background-color: white;
   color: #383838;
   border: 1px solid;
-  border-color: #88B73F;
+  border-color: #89B940;
 }
 
 #nl button:hover{
   background-color: white;
   color: #383838;
   border: 1px solid;
-  border-color: #88B73F;
+  border-color: #89B940;
 }
 
 button:hover {
@@ -192,6 +192,8 @@ button:hover {
   padding-right: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 #some img{
@@ -240,6 +242,14 @@ button:hover {
   color: white;
 }
 
+#contact p{
+  color: #89B940;
+}
+
+#contact a{
+  text-decoration: underline;
+  color: #89B940;
+}
 
 @media only screen and (min-width: 850px){
 
@@ -307,3 +317,10 @@ button:hover {
 
   #some h3{
     font-size: 4rem;
+}
+
+  #contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
