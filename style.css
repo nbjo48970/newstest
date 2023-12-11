@@ -251,6 +251,14 @@ button:hover {
   color: #89B940;
 }
 
+@media only screen and (min-width: 1200px){
+  #contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
 @media only screen and (min-width: 850px){
 
   h3{
@@ -285,6 +293,7 @@ button:hover {
     padding-bottom: 70px;
   }
 
+
   #landing{
     background-color: #383838;
     display: flex;
@@ -318,9 +327,3 @@ button:hover {
   #some h3{
     font-size: 4rem;
 }
-
-  #contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
