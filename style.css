@@ -35,18 +35,16 @@ h4{
   width: 60%;
   margin: auto;
   margin-top: 100px;
-  border-radius: 0px 0px 20px 20px;
-  box-shadow: 0px 5px 15px grey;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 5px 15px grey;
 }
 
 #landing{
   background-color: #383838;
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 50px;
+
 }
 
 #landing img{
@@ -57,10 +55,7 @@ h4{
   background-color: #383838;
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 50px;
   margin-bottom: 85px;
   color: #383838;
   text-align: left;
@@ -92,28 +87,22 @@ border-color: white;
 #events{
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 50px;
   margin-top: 35px;
   margin-bottom: 70px;
 }
 
-#nl{
+.nl{
   display: flex;
   flex-direction: column;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 50px;
 }
 
-#nl img{
+.nl img{
   max-width: 300px;
 }
 
-#dashed-1 {
+.dashed-1 {
   height: 1px;
   width: 50%;
   background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
@@ -121,7 +110,7 @@ border-color: white;
   border: none;
 }
 
-#dashed-2 {
+.dashed-2 {
   height: 1px;
   width: 50%;
   background-image: linear-gradient(90deg, transparent, transparent 50%, #383838 50%, #383838 100%), linear-gradient(90deg, #89B940, #89B940 );
@@ -147,7 +136,7 @@ border-color: white;
   font-size: 16px;
 }
 
-#nl button{
+.nl button{
   align-self: center;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -172,7 +161,7 @@ border-color: white;
   border-color: #89B940;
 }
 
-#nl button:hover{
+.nl button:hover{
   background-color: white;
   color: #383838;
   border: 1px solid;
@@ -188,10 +177,7 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 50px 50px 50px;
   margin-top: 40px;
   margin-bottom: 50px;
 }
@@ -228,13 +214,10 @@ button:hover {
 
 #bottom{
   background-color: #242424;
-  border-radius: 0px 0px 20px 20px;
+  border-radius: 0 0 20px 20px;
   text-align: center;
   color: white;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 50px;
-  padding-bottom: 70px;
+  padding: 50px 70px 70px 70px;
 }
 
 #bottom a{
@@ -280,17 +263,11 @@ button:hover {
   }
 
   #events {
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 70px 70px 70px;
   }
 
-  #nl {
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+  .nl {
+    padding: 70px 70px 70px 70px;
   }
 
 
@@ -298,13 +275,10 @@ button:hover {
     background-color: #383838;
     display: flex;
     flex-direction: column;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 70px 70px 70px;
   }
 
-  #landing h3, #events h3, #nl h3{
+  #landing h3, #events h3, .nl h3{
     font-size: 80px;
     margin-top: 0;
   }
@@ -318,12 +292,6 @@ button:hover {
     flex-direction: row;
     align-items: center;
     text-align: left;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 70px 70px 70px 70px;
   }
-
-  #some h3{
-    font-size: 4rem;
 }
